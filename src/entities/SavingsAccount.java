@@ -24,10 +24,9 @@ public class SavingsAccount extends Account {
     }
 
     @Override
-    public void withdraw(double amount){
+    public void withdraw(double amount) {
         balance -= amount;
     }
-
 
 
 }
